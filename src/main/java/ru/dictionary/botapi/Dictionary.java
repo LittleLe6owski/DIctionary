@@ -53,11 +53,11 @@ public class Dictionary extends TelegramLongPollingBot {
 		}
 	}
 
-    private <T extends BotApiMethod> void sendMsg (T sendMessage) {
-    	try {
-            execute(sendMessage);
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
-    }
+        private <T extends BotApiMethod> void sendMsg (T sendMessage) {
+    		try {
+            		execute(sendMessage);
+        	} catch (TelegramApiException e) {
+            	e.printStackTrace();
+        	}
+    	}
 }
