@@ -9,7 +9,7 @@ public class Start {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
                 AppConfig.class);
                 
-        context.getBean("appConfig", AppConfig.class);
-        context.close();
+        	context.getBean("appConfig", AppConfig.class);
+        	context.close();
 	}
 }
